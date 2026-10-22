@@ -1,29 +1,92 @@
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    margin: 0;
-    padding: 30px;
-}
+        margin: 0;
+        background: #333536;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        color: #ffc329;
+    }
 
-.container {
-    width: 400px;
-    max-width: 100%;
-    margin: 50px auto;
-    padding: 25px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px #ccc;
-}
+    .container {
+        padding: 45px 15px;
+    }
 
-h2 {
-    text-align: center;
-    color: #333;
-    margin-bottom: 25px;
-}
+    .logo {
+        width: 480px;
+        max-width: 85%;
+        height: auto;
+    }
 
-.details p {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
-    color: #555;
-}
+    h1 {
+        font-size: clamp(35px, 7vw, 90px);
+        font-weight: 900;
+        margin: 0;
+        letter-spacing: -2px;
+    }
 
+    h2 {
+        font-size: clamp(25px, 4vw, 50px);
+        letter-spacing: 12px;
+        margin: 0 0 8px;
+    }
+
+    p {
+        font-size: clamp(18px, 3vw, 40px);
+        font-weight: bold;
+        margin: 8px 0;
+    }
+
+    /* Discount Form */
+    .discount-form {
+        max-width: 450px;
+        margin: 35px auto 0;
+    }
+
+    .discount-form h3 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    .discount-form p {
+        font-size: 17px;
+        margin-bottom: 22px;
+    }
+
+    .discount-form input {
+        width: 100%;
+        padding: 14px;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+        border: 1px solid #ffc329;
+        border-radius: 5px;
+        background: #333536;
+        color: white;
+        font-size: 16px;
+        outline: none;
+    }
+
+    .discount-form input::placeholder {
+        color: #cccccc;
+    }
+
+    .discount-form button {
+        width: 100%;
+        padding: 15px;
+        background: #ffc329;
+        color: #333536;
+        border: none;
+        border-radius: 5px;
+        font-size: 17px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .discount-form button:hover {
+        background: #ffda65;
+    }
+
+    @media (max-width: 600px) {
+        .discount-form h3 {
+            font-size: 22px;
+        }
+    }

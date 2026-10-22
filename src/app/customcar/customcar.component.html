@@ -1,0 +1,80 @@
+<body>
+
+<div class="poster">
+
+
+<div class="car">
+  <svg viewBox="0 0 650 190" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#fff"/>
+        <stop offset="50%" stop-color="#aaa"/>
+        <stop offset="100%" stop-color="#fff"/>
+      </linearGradient>
+    </defs>
+
+    <!-- Silver car outline -->
+    <path d="M35 132 Q42 98 95 83 L207 60
+             Q263 8 342 9 Q408 10 464 72
+             L528 81 Q585 88 616 126
+             Q575 111 535 111 L106 112
+             Q66 114 35 132Z"
+          fill="none" stroke="url(#silver)"
+          stroke-width="8" stroke-linejoin="round"/>
+
+    <!-- Red sporty accents -->
+    <path d="M107 112 Q167 87 229 112
+             M405 111 Q477 85 541 111"
+          fill="none" stroke="#ff1025" stroke-width="9"/>
+
+    <path d="M55 153 Q150 137 214 155
+             M380 155 Q475 137 558 153"
+          fill="none" stroke="#ff1025" stroke-width="8"/>
+
+    <path d="M250 127 L342 127"
+          stroke="#fff" stroke-width="3"/>
+  </svg>
+</div>
+
+
+  <h1>CAR CUSTOM</h1>
+
+  <div class="service">
+    CAR MODIFICATION<br>&amp; WASHING
+  </div>
+
+  <div class="offer">
+    <p>Fill in the details below to get</p>
+    <p class="discount">50% OFF</p>
+    <p>on your first car wash</p>
+  </div>
+
+  <div class="form-box">
+    <div class="form-title">Fill in Your Details</div>
+
+    <form id="discountForm">
+      <input
+        type="text"
+        name="fullName"
+        placeholder="Full Name"
+        required>
+
+      <input
+        type="tel"
+        name="mobile"
+        placeholder="Mobile Number"
+        pattern="[0-9]{10}"
+        maxlength="10"
+        inputmode="numeric"
+        required>
+
+      <button type="submit">Submit</button>
+      <p id="message"></p>
+    </form>
+  </div>
+
+</div>
+
+
+
+</body>

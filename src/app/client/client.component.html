@@ -1,14 +1,58 @@
+
 <div class="container">
-    <h2>Client Details</h2>
 
-    <div class="details">
-        <p><strong>Client ID:</strong> 101</p>
-        <p><strong>Name:</strong> Viraj </p>
-        <p><strong>Email:</strong> email address</p>
-        <p><strong>Phone:</strong> 7906623151</p>
-        <p><strong>Address:</strong> Roorkee, Uttarakhand</p>
-        <p><strong>Status:</strong> Active</p>
-    </div>
+    <!-- Optical Planet Logo -->
+    <svg class="logo" viewBox="0 0 500 150"
+         xmlns="http://www.w3.org/2000/svg">
 
-    
+        <g fill="none" stroke="#ffc329"
+           stroke-width="15" stroke-linecap="round"
+           stroke-linejoin="round">
+
+            <path d="M45 30 L180 65
+                     Q250 95 320 65 L455 30
+                     L420 115 Q415 130 395 130
+                     L335 130 Q315 130 300 105
+                     L250 55 L200 105
+                     Q185 130 165 130 L105 130
+                     Q85 130 80 115 Z"/>
+
+            <path d="M45 30 L20 30"/>
+            <path d="M455 30 L480 30"/>
+
+        </g>
+    </svg>
+
+    <h1>OPTICAL PLANET</h1>
+    <h2>ROORKEE</h2>
+
+    <p>249/1 Prem Mandir Rd, Civil Lines</p>
+    <p>PH.: 7042956611</p>
+
+    <!-- Discount Redemption Form -->
+    <form class="discount-form">
+
+        <h3>Redeem Your Discount</h3>
+
+        <p>Enter your full name and phone number to redeem your discount code.</p>
+
+        <input
+            type="text"
+            name="fullName"
+            placeholder="Enter your full name"
+            required>
+
+        <input
+            type="tel"
+            name="phone"
+            placeholder="Enter your phone number"
+            pattern="[0-9+\s()-]{7,20}"
+            required>
+
+        <button type="submit">
+            Redeem Discount
+        </button>
+
+    </form>
+
 </div>
